@@ -1,5 +1,5 @@
 """
-Suppose you have time intervals (1000,1800) and (3400,4500), i.e., the first interval starts at time t=1000, and ends at time t=1800. Define (100,200) and (200,250) to be overlapping, since they overlap at timestep 200. However, (100,199) and (200,250) are non-overlapping.
+Suppose you have time intervals [1000,1800] and [3400,4500], i.e., the first interval starts at time t=1000, and ends at time t=1800. Define [100,200] and [200,250] to be overlapping, since they overlap at timestep 200. However, (100,199) and (200,250) are non-overlapping.
 
 Task: Implement function to check if a new time segment overlaps with any of the previous segments. 
 """
