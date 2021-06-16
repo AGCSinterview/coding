@@ -5,7 +5,7 @@ Task: Implement function to check if a new time segment overlaps with any of the
 """
 
 
-def is_overlapping(segment_time : tuple, previous_segments : tuple):
+def is_overlapping(segment_time : tuple, previous_segments : list):
     """
     Checks if the time of a segment overlaps with the times of existing segments.
     
